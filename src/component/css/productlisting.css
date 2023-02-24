@@ -1,0 +1,33 @@
+.wintersaletext{
+    color: #D1D5DB;
+}
+.card-text{
+    color: #1F2937;
+font-weight: 500;
+font-size: 15px;
+}
+.original-price{
+font-weight: 600;
+font-size: 18px;
+line-height: 32px;
+
+color: #374151;
+}
+.discount-price{
+    font-size: 18px;
+color: #9CA3AF;
+
+}
+.no-orders{
+    font-size: 16px;
+line-height: 24px;
+color: #4B5563;
+}
+
+.btn-primary {
+border-color: none;
+}
+.range{
+color:    #4B5563;
+
+}

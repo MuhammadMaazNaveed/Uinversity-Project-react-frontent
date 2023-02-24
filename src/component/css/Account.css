@@ -1,0 +1,32 @@
+body {
+    font-family: 'Jost';
+    font-style: normal;
+}
+
+.img-fluid {
+    position: relative;
+    right: -5em;
+    z-index: 1;
+}
+
+#curve .col-7 {
+    border-radius: 5em;
+}
+
+#eng {
+    position: relative;
+    right: -29.5em;
+    color: #B7B7BA;
+}
+
+.create-acc {
+    font-size: 2.5em;
+    letter-spacing: 0.09em;
+    font-weight: 800;
+    line-height: 62px;
+
+}
+
+.text-center {
+    text-align: left !important;
+}

@@ -1,0 +1,80 @@
+a.btn.btn-primary.bg-dark.mt-4 {
+    width: 100px;
+    font-size: 12px;
+}
+
+.card img {
+    width: 253px;
+    height: 300px;
+}
+
+.col-md-9 {
+    background: none;
+}
+
+.productbackground1 {
+    background-color: #F9FAFB;
+}
+
+.wintersaletext {
+    color: #D1D5DB;
+}
+
+.card-text {
+    color: #1F2937;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.original-price {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #374151;
+}
+
+.discount-price {
+    font-size: 18px;
+    color: #9CA3AF;
+
+}
+
+.no-orders {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B5563;
+}
+
+.btn-primary {
+    border-color: none;
+}
+
+.range {
+    color: #4B5563;
+
+}
+
+@media screen and (max-width:1199px) {
+    .btn-primary {
+        position: relative;
+        right: 1.5em;
+        /* top: 14em; */
+    }
+}
+
+@media screen and (max-width:991px) {
+    .btn-primary {
+        position: relative;
+        right: 3em;
+        /* top: 14em; */
+    }
+}
+
+@media screen and (max-width:767px) {
+    .btn-primary {
+        position: relative;
+        left: 10em;
+        /* top: 14em; */
+    }
+}

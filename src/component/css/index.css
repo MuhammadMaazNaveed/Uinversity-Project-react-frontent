@@ -1,0 +1,160 @@
+.navbar-nav li{
+    margin-right: 23px;
+    position: relative;
+    right: 10em;
+    bottom: 2em;
+}
+.list-unstyled{
+margin-bottom: 5em;
+}
+.bi{
+    color: black;
+    margin-left: 1rem;
+}
+.bi-bag{
+    font-size: 27px;
+    position: relative;
+    top: 3px;
+}
+.bi-person{
+    font-size: 31px;
+    position: relative;
+    top: 1px;
+  
+}
+.bi-search {
+    transform: rotate(88deg);
+    font-size: 1.4em;
+    position: relative;
+    top: 5px;
+}
+
+.input-group input{
+    height: 2em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.first{
+font-weight: 700;
+color: #010851;
+}
+.first_text{
+    color: #010851;
+    font-weight: 400;
+}
+
+.text{
+    font-weight: 700;
+line-height: 70px;
+font-size: large;
+
+font-family: 'Jost', sans-serif;
+
+color: #010851;
+}
+.first span{
+    color: #ED80FD  ;
+}
+.top{
+    border-radius: 2em;
+    border-bottom-right-radius: 20em;
+
+}
+.top_column{
+    margin-top: 8em;
+   /* margin-left: 1rem; */
+}
+.top_text{
+    font-weight: 700;
+}
+.btn{border-radius: 10px;}
+.btn-secondary-1{
+    background: #ED80FD;
+    border-color: #ED80FD;
+    
+}
+.btn-outline-secondary{
+    border-color: white;
+}
+.img-fluid{
+    position: relative;
+    left: 1em;
+}
+.community-footer,.about_footer,.contact_footer{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 2em;
+line-height: 70px;
+/* or 147% */
+
+
+color: #010851;
+}
+
+.col-md-4 li{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 1.2em;
+line-height: 46px;
+list-style: none;
+color: #010851;
+}
+.col-md-4 li a{
+    color: #010851;
+}
+.we_are_here{
+    font-weight: 700;
+font-size: 3em;
+color: #010851;
+}
+hr{
+    width: 70%;   
+border: 1px solid #000000;
+margin-right: 19em;
+}
+.col-md-4 li img{
+    height: auto;
+    width: 1em;
+    margin-right: 1rem;
+}
+.form-control{
+    color: #C7C9DE;
+}
+.join_club,.subscribe{
+font-family: 'Jost';
+font-style: normal;
+color: #010851;
+
+}
+.join_club{font-weight: 400;
+    font-size:2.2em;
+    line-height:1em;
+ }
+ 
+.subscribe{font-weight: 700;
+    font-size: 1em;
+    line-height: 3em;
+    color: #010851;
+
+}
+.form_contorl{
+    width: 75%;
+    height: 60%;
+    border-color: white;
+}
+.form_contorl {
+    width: 14em;
+    height: 3em;
+    border-color: white;
+}
+
+input[type="email"] {
+    padding-left: 1em;
+    background: #FFFFFF;
+
+}

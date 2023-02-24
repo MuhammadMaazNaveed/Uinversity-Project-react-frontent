@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Jost;
+}
+
+.pop-up_section .container {
+    background-color: transparent;
+}
+
+.pop-up_section {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 130px;
+    left: 300px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_form_section {
+    width: 55%;
+    padding: 20px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.pop-up_section .container .login_form_section .content {
+    width: auto;
+    height: auto;
+}
+
+.pop-up_section .container .login_form_section .content h1 {
+    display: flex;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 28px;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.pop-up_section .container .login_form_section .content p {
+    display: flex;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    color: #969696;
+    justify-content: flex-start;
+    opacity: 0.4;
+    margin-bottom: 46px;
+}
+
+.pop-up_section .container .login_form_section .login_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.pop-up_section .container .login_form_section .login_form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+.pop-up_section .container .login_form_section .login_form form .col_3 {
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.pop-up_section .container .login_form_section .login_form form .col_3 input {
+    width: 350px;
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 30px;
+    border: 1px solid #BDBDBD;
+    border-radius: 20px;
+    color: #495057;
+    padding: 10px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.pop-up_section .container .login_form_section .login_form form .col_3:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F5ADBE;
+}
+
+.pop-up_section .container .login_form_section .login_form form .col_3:last-child input {
+    color: #fff;
+}
+
+.pop-up_section .container .login_form_section .login_form form .col_3:last-child .forget_password label {
+    display: flex;
+    justify-content: left;
+    color: #F5ADBE;
+    margin-top: 10px;
+}
+
+.pop-up_section .container .login_form_section .login_form form .col_3 i {
+    font-size: 30px;
+    margin-left: -60px;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.img {
+    width: 45%;
+    padding: 20px;
+    z-index: 10;
+}
+
+.img img {
+    margin-left: 60px;
+    margin-bottom: 25px;
+}
+
+
+@media only screen and (max-width:1024px) {
+
+    .container {
+        top: 90px;
+        left: 100px;
+    }
+
+    .login_form_section {
+        padding-top: 40px;
+    }
+
+    .login_form {
+        margin-top: 90px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .container {
+        width: 80%;
+        left: 10px;
+    }
+
+    .login_form_section {
+        width: 45%;
+    }
+
+    .pop-up_section .container .login_form_section .login_form form .col_3 input {
+        width: 320px;
+    }
+
+    .img {
+        width: 30%;
+        padding: 0px;
+        z-index: 10;
+    }
+
+    .img img {
+        margin-left: -30px;
+    }
+
+}
+
+@media only screen and (max-width:710px) {
+    .container {
+        left: 10px;
+    }
+
+    .row {
+        /* background-color: #fff;   */
+    }
+
+    .login_form_section {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:440px) {
+    .pop-up_section .container .login_form_section .content h1 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:419px) {
+    .pop-up_section .container .login_form_section .content h1 {
+        font-size: 27.5px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .container {
+        left: -9px;
+    }
+
+    .login_form_section {
+        width: 320px;
+        padding: 20px;
+    }
+}

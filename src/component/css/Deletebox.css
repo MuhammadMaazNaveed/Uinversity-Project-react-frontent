@@ -1,0 +1,38 @@
+.container-delete {
+    width: 100%;
+    margin-top: 10em;
+
+    background-color: #A39A9A;
+}
+
+.btn-delete {
+    border-radius: 10px;
+
+}
+
+.btn-secondary-delete {
+    background-color: #7B4747;
+    border-color: none;
+    font-weight: 500;
+
+}
+
+.btn-outline-secondary-delete {
+    border-color: white;
+    color: #A39A9A;
+    font-weight: 500;
+    background-color: white;
+}
+
+.text_area {
+    background: rgba(253, 128, 158, 0.23);
+}
+
+.img {
+    background-color: #F5F5F5;
+}
+
+.confirm_delete {
+    font-size: 1.4em;
+    font-weight: 500;
+}

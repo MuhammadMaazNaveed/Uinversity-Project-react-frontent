@@ -1,0 +1,33 @@
+.second-input input {
+    width: 80%;
+    background-color: #E0E0E0;
+    border-color: #E0E0E0;
+    font-size: 23px;
+}
+
+.btn-primary {
+    background-color: #E0A2B1;
+    border-color: #E0A2B1;
+    box-shadow: 0px 5px 65px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    width: 11em;
+    font-size: 1.4em;
+
+}
+
+.eg {
+    background-color: #E0E0E0;
+    color: #828282;
+    border-radius: 6px;
+    width: 4.5em;
+}
+
+hr {
+    width: 80%;
+}
+
+label,
+.type {
+    color: #828282;
+
+}
